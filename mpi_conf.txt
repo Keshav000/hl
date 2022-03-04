@@ -1,0 +1,5 @@
+Project->Properties->c/c++->Additional in..->$(MSMPI_INC);$(MSMPI_INC)\x64
+
+linker->input->additional dep->msmpi.lib
+
+linker->general->Additional lib dir->$(MSMPI_LIB64)
